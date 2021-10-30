@@ -51,6 +51,7 @@ font-size: 14px;
 }
 .new-hr span{
   border-top: 1px dashed #878886;
+  width: 100vw;
 }
 .new-hr-2 span{
   border-top: 1px dashed #D8D8D8;
@@ -109,6 +110,11 @@ font-size: 14px;
 @media screen and (max-width: 350px) {
   #myBtn {
     right: -200px;
+  }
+}
+@media screen and (max-width: 250px) {
+  #myBtn {
+    right: -150px;
   }
 }
 @media screen and (max-width: 1160px) {
