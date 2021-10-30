@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+.active {
+  color: #8abf40 !important;
+}
+.upit {
+  background-color: #8abf40;
+  color: white;
+  font-size: 13px;
+}
+.upit-2{
+  background-color: white;
+  color: #888888;
+  border: 1px solid #888888;
+  border-radius: 7px;
+  font-size: 13px;
+}
+
+span.naslovni-text {
+  border-bottom: 4px solid #8abf40;
+}
+.naslovni-text-2{
+  border-bottom: 1px dashed #878886;
+}
+.reference img{
+  filter: grayscale(100%);
+}
+.reference img:hover{
+  filter: grayscale(0%);
+}
+.text-mi > p{
+  font-size: 18px;
+}
+.proces p{
+  font-size: 18px;
+}
+.proces-2  p{
+font-size: 14px;
+}
+.proces-2 h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+.offset-image{
+  margin-top: -90px;
+}
+.h-slike img{
+  height: 100% !important;
+}
+.new-hr span{
+  border-top: 1px dashed #878886;
+}
+.new-hr-2 span{
+  border-top: 1px dashed #D8D8D8;
+}
+.footer-text .a{
+  color: #666666;
+}
+.pp p{
+  color: #D8D8D8;
+}
+#myBtn {
+  position: relative;
+  bottom: 20px;
+  right: -1200px;
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #8abf40; 
+  color: white; 
+  cursor: pointer; 
+  padding: 5px 10px; 
+  border-radius: 10px; 
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+  border: 1px solid #8abf40;
+  color: #8abf40;
+}
+@media screen and (max-width: 1400px) {
+  #myBtn {
+    right: -1000px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #myBtn {
+    right: -800px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #myBtn {
+    right: -600px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #myBtn {
+    right: -400px;
+  }
+}
+@media screen and (max-width: 453px) {
+  #myBtn {
+    right: -300px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #myBtn {
+    right: -200px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .offset-image {
+    margin-top: -35px !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .offset-image {
+    margin-top: -61px !important;
+  }
+  .h-text p{
+    font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 1160px) {
+  .offset-image {
+    margin-top: -35px !important;
+  }
+}
+@media screen and (max-width: 992px){
+  .h-text p{
+    font-size: 12px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+  .offset-image {
+    margin-top: 0px !important;
+  }
+  .h-text p{
+    font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 466px){
+  .h-text p{
+    font-size: 13px !important;
+    }
+    .h-text{
+      padding: 0 !important;
+    }
+}
